@@ -34,7 +34,7 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `❎ Command ini khusus untuk Jaka tersayang:v`
 }
 
 exports.doneOwner = () => {
@@ -46,7 +46,7 @@ exports.groupOnly = () => {
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `Lu admin?`
 }
 
 exports.nhFalse = () => {
@@ -65,10 +65,9 @@ exports.notAdmin = () => {
 
 exports.adminAlready = () => {
     return `❎ Tidak  dapat mem-promote user yang merupakan admin!`
-}
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Bot nya jadi in adminn dulu "-_ `
 }
 
 exports.received = (pushname) => {
@@ -86,13 +85,13 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp.
+saya ${botname}, bot ini adalah hasil ciptaan orang gabut yg bernama Jaka, jadi kalo error/gk work maklumin aja yah:v.
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu Jesīcaꪶ͢Botzꫂ⁩ :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
